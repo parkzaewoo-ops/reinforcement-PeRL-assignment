@@ -1,0 +1,118 @@
+{
+  "best_score": 1.0514000000000001,
+  "best_step": 0,
+  "total_steps": 11,
+  "elapsed_time": 489.62359642982483,
+  "history": [
+    {
+      "step": 0,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:31:18",
+      "is_best": true,
+      "improvement": 1.0514000000000001
+    },
+    {
+      "step": 1,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:32:10",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 2,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:32:55",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 3,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:33:41",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 4,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:34:27",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 5,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:35:14",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 6,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:36:02",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 7,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:36:51",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 8,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:37:45",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 9,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:38:35",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 10,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:39:24",
+      "is_best": false,
+      "improvement": 0.0
+    }
+  ]
+}

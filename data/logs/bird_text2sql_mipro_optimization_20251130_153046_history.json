@@ -1,0 +1,50 @@
+[
+  {
+    "step": 0,
+    "timestamp": "2025-11-30 15:30:48",
+    "avg_score": 1.0514000000000001,
+    "normalized_score": 0.3004,
+    "perfect_match": 0,
+    "result_match": 0,
+    "partial_match": 3,
+    "wrong_result": 0,
+    "error_count": 7,
+    "total_samples": 10,
+    "elapsed_time": 2.5825963020324707,
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+  },
+  {
+    "step": 1,
+    "timestamp": "2025-11-30 15:42:34",
+    "avg_score": 1.0514000000000001,
+    "normalized_score": 0.3004,
+    "perfect_match": 0,
+    "result_match": 0,
+    "partial_match": 3,
+    "wrong_result": 0,
+    "error_count": 7,
+    "total_samples": 10,
+    "elapsed_time": 707.717610836029,
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+  },
+  {
+    "step": 2,
+    "timestamp": "2025-11-30 15:43:38",
+    "avg_score": 1.288,
+    "normalized_score": 0.368,
+    "perfect_match": 0,
+    "result_match": 0,
+    "partial_match": 17,
+    "wrong_result": 0,
+    "error_count": 30,
+    "total_samples": 47,
+    "elapsed_time": 772.0675759315491,
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+  }
+]

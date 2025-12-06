@@ -1,0 +1,2 @@
+epoch,step_name,timestamp,avg_score,normalized_score,train_score,train_normalized,perfect_match,result_match,partial_match,wrong_result,error_count,total_samples,success_rate,error_rate,elapsed_time,total_tokens,prompt_tokens,completion_tokens
+0,Baseline (Test),2025-12-02 01:32:33,0.8085,0.231,0,0,0,0,10,0,37,47,21.28,78.72,30.42,0,0,0

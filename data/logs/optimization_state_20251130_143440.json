@@ -1,0 +1,48 @@
+{
+  "best_score": 1.0514000000000001,
+  "best_step": 0,
+  "total_steps": 4,
+  "elapsed_time": 146.57307386398315,
+  "history": [
+    {
+      "step": 0,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 14:32:16",
+      "is_best": true,
+      "improvement": 1.0514000000000001
+    },
+    {
+      "step": 1,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 14:32:59",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 2,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 14:33:48",
+      "is_best": false,
+      "improvement": 0.0
+    },
+    {
+      "step": 3,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 14:34:39",
+      "is_best": false,
+      "improvement": 0.0
+    }
+  ]
+}

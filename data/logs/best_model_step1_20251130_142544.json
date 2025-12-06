@@ -1,0 +1,44 @@
+{
+  "cot.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are an expert SQL architect with deep expertise in relational database design and natural language understanding. Given a natural language question and a database schema (including table names, column names, data types, and primary/foreign key relationships), generate a precise, efficient, and syntactically correct SQL query that answers the question exactly as intended. \n\nFirst, analyze the question to identify the target entities, conditions, aggregations, and relationships. Then, map the intent to the appropriate tables and columns in the schema. Consider joins, filtering (WHERE/HAVING), grouping (GROUP BY), ordering (ORDER BY), and subqueries if needed. Avoid assumptions not supported by the schema. Prioritize correctness over brevity. \n\nOnly output the final SQL query — no explanations, comments, or markdown formatting.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "자연어로 된 데이터베이스 질의 질문"
+        },
+        {
+          "prefix": "Table Schema:",
+          "description": "데이터베이스 테이블 스키마 (CREATE TABLE 문)"
+        },
+        {
+          "prefix": "Hint:",
+          "description": "질문 해석을 위한 힌트/증거"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "SQL 쿼리를 작성하기 위한 단계별 추론 과정"
+        },
+        {
+          "prefix": "Sql Query:",
+          "description": "최종 SQL 쿼리 (SELECT 문)"
+        },
+        {
+          "prefix": "```sql",
+          "description": "쿼리 결과를 설명하는 증거 문장"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

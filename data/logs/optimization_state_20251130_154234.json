@@ -1,0 +1,28 @@
+{
+  "best_score": 1.0514000000000001,
+  "best_step": 0,
+  "total_steps": 2,
+  "elapsed_time": 708.357255935669,
+  "history": [
+    {
+      "step": 0,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:30:48",
+      "is_best": true,
+      "improvement": 1.0514000000000001
+    },
+    {
+      "step": 1,
+      "score": 1.0514000000000001,
+      "normalized_score": 0.30040000000000006,
+      "instruction": "",
+      "num_demos": 0,
+      "timestamp": "2025-11-30 15:42:34",
+      "is_best": false,
+      "improvement": 0.0
+    }
+  ]
+}

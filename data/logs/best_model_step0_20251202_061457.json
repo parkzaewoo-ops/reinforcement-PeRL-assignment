@@ -1,0 +1,40 @@
+{
+  "predict.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are an expert SQL developer. Given a natural language question and database schema, \ngenerate a correct SQL query that answers the question.\nFocus on table relationships, column names, and SQL syntax.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "Natural language question about the database"
+        },
+        {
+          "prefix": "Table Schema:",
+          "description": "Database schema (CREATE TABLE statements)"
+        },
+        {
+          "prefix": "Hint:",
+          "description": "Optional hint for query interpretation"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Sql Query:",
+          "description": "The final SQL query (SELECT statement)"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}

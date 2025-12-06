@@ -1,0 +1,44 @@
+{
+  "cot.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are an expert SQL developer. Given a natural language question and database schema, \ngenerate a correct SQL query that answers the question. \nThink step by step about the table relationships and required columns.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "자연어로 된 데이터베이스 질의 질문"
+        },
+        {
+          "prefix": "Table Schema:",
+          "description": "데이터베이스 테이블 스키마 (CREATE TABLE 문)"
+        },
+        {
+          "prefix": "Hint:",
+          "description": "질문 해석을 위한 힌트/증거"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "SQL 쿼리를 작성하기 위한 단계별 추론 과정"
+        },
+        {
+          "prefix": "Sql Query:",
+          "description": "최종 SQL 쿼리 (SELECT 문)"
+        },
+        {
+          "prefix": "Evidence:",
+          "description": "쿼리 결과를 설명하는 증거 문장"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.11",
+      "dspy": "3.0.4",
+      "cloudpickle": "3.1"
+    }
+  }
+}
